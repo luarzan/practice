@@ -1,0 +1,221 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+		"Droid Sans", "Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.cards-container {
+	width: 100%;
+}
+
+.card-container {
+	height: 135px;
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+	overflow: auto;
+	border: 2px solid;
+	margin: 20px;
+}
+
+.card-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding-left: 5px;
+}
+
+.card-name {
+	border: 1px solid black;
+	margin-bottom: 20px;
+	padding-left: 10px;
+}
+
+.random-container {
+	border: 1px solid black;
+	margin-bottom: 20px;
+	padding-left: 10px;
+}
+.BoxColor {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 40px;
+	border: 1px solid black;
+	margin-bottom: 20px;
+}
+.BoxColor p {
+	font-size: 20px;
+	color: white;
+	margin-bottom: 10px;
+}
+.startWrapper {
+	width: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.star {
+	width: 20px;
+	height: 20px;
+	border: 1px solid black;
+	clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+	background-color: rgba(0, 0, 0, .1);
+}
+.startCpntainer {
+	display: flex;
+}
+.star.rate {
+	background-color: black;
+}
+.star.rateWhite{
+	background-color: white;
+}
+
+.CreditCard {
+	width: 300px;
+	height: 150px;
+	border-radius: 20px;
+	padding: 30px;
+	margin-right: 20px;
+}
+
+.CreditCardBorder {
+	display: flex;
+	justify-content: space-evenly;
+}
+.CreditCard-logo {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.CreditCard-logo svg {
+	width: 80px;
+	height: 60px;
+}
+.CreditCard-name {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.CreditCard-name p {
+	font-size: 20px;
+	letter-spacing: 8px;
+}
+
+.DriveCard-container{
+	background-color:#455EB5;
+	border-radius: 10px;
+	width: 900px;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin-bottom: 20px;
+}
+.DriveCard-content{
+	height: 100%;
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.DriveCard-img{
+	width: 90px;
+	height: 90px;
+	border-radius: 200px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-right: 20px;
+}
+.DriveCard-info{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: left;
+}
+.DriveCard-name{
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
+.DriveCard-carDescription{
+	font-size: 16px;
+	font-weight: lighter;
+	color: white;
+}
+
+.LikeBtn{
+	width: 100px;
+	height: 50px;
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+}
+.ClickablePicture{
+	width: 300px;
+	height: 500px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.Dice{
+	cursor: pointer;
+	border-radius: 20px;
+	width: 300px;
+	height: 300px;
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.Carousel{
+	width: 600px;
+	height: 500px;
+	display: flex;
+}
+.Carousel button{
+	width: 100px;
+	height: 100%;
+}
+.Carousel-img{
+	width: 400px;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.NumbersTable{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.NumbersTable-square{
+	width: 100px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	font-size: 32px;
+	font-weight: bold;
+	border: 1px solid black;
+}
+
+
